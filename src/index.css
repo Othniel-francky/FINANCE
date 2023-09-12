@@ -13,6 +13,29 @@ a{
 li{
   list-style: none;
 }
-body{
-  
+.btn{
+  padding: 1rem 1rem;
+  background: #E3B350;
+  border: none;
+  outline: none;
+  border-radius: 3rem; 
+  cursor: pointer;
+}
+
+.btn a{
+  color: black;
+  font-weight: 500;
+}
+
+.btn:hover{
+  background:yellowgreen;
+}
+
+.btn:hover a{
+  color: red; 
+}
+
+.flex{
+  display: flex;
+  align-items: center;
 }

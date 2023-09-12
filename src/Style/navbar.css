@@ -19,4 +19,8 @@ header{
 .Navbar{
     display: flex;
     column-gap: 5rem;
+    color: white;
+    font-weight: 500;
 }
+
+

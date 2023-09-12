@@ -1,0 +1,35 @@
+.home{
+    height: 75vh;
+    background: linear-gradient(rgba(33, 33, 33,0.522), rgba(33, 33, 33,0.522)), url(../assets/Aceuil.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+.homeText{
+    text-align: center;
+}
+ 
+.title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+}
+.subtitle{
+    color: white;
+    opacity: .9;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.btn{
+    padding: .6rem 1.5rem;
+}

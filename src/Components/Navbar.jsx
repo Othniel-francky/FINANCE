@@ -27,11 +27,8 @@ const Navbar = () => {
                   <li>ETUDE FINANCIERE</li>
 
                   <div className="headerBtns flex">
-                        <button className="btn loginBtn">
-                            M'inscrire
-                        </button>
-                        <button className="btn">
-                            Mon Espace Touristique
+                        <button className="btn ">
+                            Mon Espace
                         </button>
                      </div>
                 </ul>
