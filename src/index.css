@@ -21,7 +21,10 @@ li{
   border-radius: 3rem; 
   cursor: pointer;
 }
-
+/* .container{
+  max-width: 1140px;
+  margin: auto;
+} */
 .btn a{
   color: black;
   font-weight: 500;
