@@ -3,7 +3,7 @@ import './navbar.css';
 import {SiYourtraveldottv} from "react-icons/si";
 import {AiFillCloseCircle} from "react-icons/ai";
 import {TbGridDots} from "react-icons/tb";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () =>{
 
@@ -68,7 +68,7 @@ window.addEventListener('scroll',addBg)
                      
                      <div className="headerBtns flex">
                         <button className="btn loginBtn">
-                            <a to="/Register">Mon espace</a>
+                            <Link to="/Connexion">Mon espace</Link>
                         </button>
                         {/* <button className="btn">
                             <a to="/Connexion">Mon espace</a>

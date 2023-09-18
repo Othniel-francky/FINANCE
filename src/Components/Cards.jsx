@@ -86,7 +86,7 @@ const cards = ()=> {
                     <button className='bttn'>En Voir Plus</button>
                     </div>
                 </div>
-                <div className="passe">
+                <div className="passe1">
                     <div className="pass">
                         <img src={img3} alt="" />
                     </div>
@@ -97,7 +97,7 @@ const cards = ()=> {
                     </div>
                 </div>
 
-                <div className="passe">
+                <div className="passe1">
                     <div className="pass">
                         <img src={img3} alt="" />
                     </div>

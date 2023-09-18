@@ -1,0 +1,44 @@
+.barre{
+    margin-top: 100px;
+}
+.grandeBrre{
+    height: 50vh;
+    width: 100%;
+    border: 2px solid #e3b350;
+    background-color: #e3b350;
+}
+.mot{
+    text-align: center;
+    margin-top: 5%;
+}
+.sepation{
+    display: flex;
+    gap: 2%;
+   justify-content: center;
+   margin-top: 2%;
+}
+.picture img{
+    height: 50px;
+    width: 150px;
+}
+
+@media screen and (max-width: 673px) {
+    .barre{
+        margin-top: 100%;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .barre{
+        margin-top: 150%;
+    }
+    .grandeBrre{
+        width: 199%;
+    }
+}
+
+@media screen and (max-width: 673px) {
+    .sepation{
+        flex-direction: column;
+    }
+}
