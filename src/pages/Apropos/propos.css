@@ -1,0 +1,36 @@
+.live{
+    margin-top: 12%;
+    display: flex;
+}
+
+.depa{
+    display: flex;
+    justify-content: center;
+}
+.trai{
+    height: 5px;
+    width: 90px;
+    background: #e3b350;
+}
+
+.living{
+    height: 450px;
+    width: 500px;
+    border: 1px solid red;
+}
+
+.living img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.car{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+}
+
+.loi{
+    display: flex;
+}

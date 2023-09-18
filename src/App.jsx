@@ -10,14 +10,14 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
 const App = () => {
-    return (
-        <div>
-          <Navbar/>   
-          <Home/> 
-          <Cards/>
-          <Barre/> 
-          <Security/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <Navbar />
+      <Home />
+      <Cards />
+      <Barre />
+      <Security />
+    </div>
+  );
+};
 export default App;

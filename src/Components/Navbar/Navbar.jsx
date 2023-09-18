@@ -51,7 +51,7 @@ window.addEventListener('scroll',addBg)
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">A PROPOS DE NOUS</a>
+                        <Link to="/Propos" className="navLink">A PROPOS DE NOUS</Link>
                     </li>
 
                     <li className="navItem">
