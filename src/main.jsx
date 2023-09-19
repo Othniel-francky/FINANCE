@@ -5,22 +5,35 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Connexion from "./pages/Connexion/connexion.jsx";
 import Propos from './pages/Apropos/propos.jsx';
+import Prestation from './pages/Prestations/Prestation.jsx';
+
+// import { Components } from 'react';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
   },
 
   {
     path: "/Connexion",
-    element: <Connexion/>,
+    element: <Connexion />,
   },
 
   {
     path: "/Propos",
-    element: <Propos/>,
-  }
+    element: <Propos />,
+  },
+
+  // {
+  //   path: "/Components",
+  //   element: <Components />,
+  // }
+
+  {
+    path: "/Prestation",
+    element: <Prestation />,
+  },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

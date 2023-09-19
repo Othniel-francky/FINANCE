@@ -17,7 +17,6 @@
 .living{
     height: 450px;
     width: 500px;
-    border: 1px solid red;
 }
 
 .living img{
@@ -28,10 +27,24 @@
 
 .car{
     height: 50px;
-    width: 50px;
-    border: 1px solid red;
+    width: 80px;
+    background-color: #e3b350;
 }
 
 .loi{
     display: flex;
+}
+
+
+.leur{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.ico{
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
 }

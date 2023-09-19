@@ -47,7 +47,7 @@ window.addEventListener('scroll',addBg)
                 <ul className="navLists flex">
                     
                     <li className="navItem">
-                        <a href="#" className="navLink">ACCUEIL</a>
+                        <Link to="/" className="navLink">ACCUEIL</Link>
                     </li>
 
                     <li className="navItem">
@@ -55,7 +55,7 @@ window.addEventListener('scroll',addBg)
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">PRESTATION DE SERVICE</a>
+                        <Link to="/Prestation" className="navLink">PRESTATION DE SERVICE</Link>
                     </li>
 
                     <li className="navItem">

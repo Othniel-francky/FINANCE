@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
 import Home from "../../Components/Home";
-import {GiSandsOfTime} from "react-icons/gi"
+import {GiSandsOfTime} from "react-icons/gi";
+import {FaEye} from "react-icons/fa";
+import {RiFocus2Line} from "react-icons/ri";
 import "../Apropos/propos.css";
 
 
@@ -30,9 +32,11 @@ const propos = () => {
               <h1>Nous nous soucions de votre argent et de votre sécurité.</h1>
             </div>
 
+            <div className="leur">
+
             <div className="loi">
                 <div className="car">
-                <GiSandsOfTime/>
+                <GiSandsOfTime className="ico"/>
                 </div>
                 <div className="pi">
                     <h5>Notre mission</h5>
@@ -42,7 +46,17 @@ const propos = () => {
 
             <div className="loi">
                 <div className="car">
-                <GiSandsOfTime/>
+                <FaEye className="ico"/>
+                </div>
+                <div className="pi">
+                    <h5>Notre mission</h5>
+                    <p className="terre">Nous nous concentrons sur la construction et le maintien de relations générationnelles à long terme avec nos clients.</p>
+                </div>
+            </div>
+
+            <div className="loi">
+                <div className="car">
+                <RiFocus2Line className="ico"/>
                 </div>
                 <div className="pi">
                     <h5>Notre mission</h5>
@@ -52,7 +66,7 @@ const propos = () => {
 
             <div className="loi">
                 <div className="car">
-                <GiSandsOfTime/>
+                <GiSandsOfTime className="ico"/>
                 </div>
                 <div className="pi">
                     <h5>Notre mission</h5>
@@ -60,17 +74,7 @@ const propos = () => {
                 </div>
             </div>
 
-            <div className="loi">
-                <div className="car">
-                <GiSandsOfTime/>
-                </div>
-                <div className="pi">
-                    <h5>Notre mission</h5>
-                    <p>Nous nous concentrons sur la construction et le maintien de relations générationnelles à long terme avec nos clients.</p>
-                </div>
             </div>
-
-
 
           </div>
         </div>
