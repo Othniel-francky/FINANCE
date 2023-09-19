@@ -40,6 +40,38 @@ const propos = () => {
                 </div>
             </div>
 
+            <div className="loi">
+                <div className="car">
+                <GiSandsOfTime/>
+                </div>
+                <div className="pi">
+                    <h5>Notre mission</h5>
+                    <p>Nous nous concentrons sur la construction et le maintien de relations générationnelles à long terme avec nos clients.</p>
+                </div>
+            </div>
+
+            <div className="loi">
+                <div className="car">
+                <GiSandsOfTime/>
+                </div>
+                <div className="pi">
+                    <h5>Notre mission</h5>
+                    <p>Nous nous concentrons sur la construction et le maintien de relations générationnelles à long terme avec nos clients.</p>
+                </div>
+            </div>
+
+            <div className="loi">
+                <div className="car">
+                <GiSandsOfTime/>
+                </div>
+                <div className="pi">
+                    <h5>Notre mission</h5>
+                    <p>Nous nous concentrons sur la construction et le maintien de relations générationnelles à long terme avec nos clients.</p>
+                </div>
+            </div>
+
+
+
           </div>
         </div>
 
