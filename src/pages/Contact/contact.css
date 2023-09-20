@@ -1,0 +1,44 @@
+.card{
+    display: flex;
+    gap: 5px;
+}
+
+.cadre{
+    height: 600px;
+    width: 600px;
+    border: 1px solid red;
+}
+.fle {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .kpa{
+    position: absolute;
+    left: 27px;
+    top: 54px;
+    padding: 9px 8px;
+  }
+  
+  .form label .input {
+    width: 240px;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 5px;
+  }
+  
+
+
+  

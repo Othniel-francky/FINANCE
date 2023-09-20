@@ -36,11 +36,11 @@ window.addEventListener('scroll',addBg)
             <div className={transparent}>
 
                 <div className="logoDiv">
-                    <a href="#" className="logo">
+                    <Link to="/" className="logo">
                         <h1 className="flex"><SiYourtraveldottv className="icon"/>
                         SIKA FINANCE
                         </h1>
-                    </a>
+                    </Link>
                 </div>
 
              <div className={active}>
@@ -59,7 +59,7 @@ window.addEventListener('scroll',addBg)
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">CONTACTS</a>
+                        <Link to="/Contact" className="navLink">CONTACTS</Link>
                     </li>
 
                     <li className="navItem">
