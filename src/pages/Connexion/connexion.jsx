@@ -1,30 +1,69 @@
-import React from 'react'
-import Navbar from '../../Components/Navbar/Navbar'
-import Home from '../../Components/Home'
+import React from "react";
+import "../Connexion/connexion.css";
+import { Link } from "react-router-dom";
+import { SiYourtraveldottv } from "react-icons/si";
 
 const connexion = () => {
-    return (
-
-        <div>
-            <Navbar />
-            <Home />
-            <div className="alert-box">
-                <p className="alert"></p>
-            </div>
-            <div className="global">
-                <div className="form">
-                    <h1 className="heading">login</h1>
-                    <input type="email" placeholder="email" autocomplete="off" className="email" required />
-                    <input type="password" placeholder="password" autocomplete="off" className="password" required />
-                    <button className="submit-btn">log in</button>
-                    <a href="/register" className="link">don't have an account? Register one</a>
-                </div>
-
-            </div>
-
-
+  return (
+    <div>
+      <div className="simpleNavbar">
+        <div className="logoDiv">
+          <Link to="/" className="logo">
+            <h1 className="flex">
+              <SiYourtraveldottv className="icon" />
+              SIKA FINANCE
+            </h1>
+          </Link>
         </div>
-    )
-}
 
-export default connexion
+        <div className="autreNavbar">
+          <a href="#">Deja Inscrit ?Connectez-vous</a>
+        </div>
+      </div>
+      <hr />
+      <div className="contai">
+        <div className="global">
+          <p>Inscrivez-vous gratuitement</p>
+          <form className="for">
+            <div className="bois">
+              <label className="babel1">
+                <span>Votre adresse email:</span>
+                <input type="text" />
+              </label>
+            </div>
+            <br />
+            <div className="bois">
+              <label className="babel">
+                <span>Choisissez votre mot de passe:</span>
+                <input type="text" />
+              </label>
+            </div>
+            <br />
+            <div className="bois">
+              <label className="babel">
+                <span>Confirmez votre mot de passe:</span>
+                <input type="text" />
+              </label>
+            </div>
+
+            <div className="foi">
+              <div className="loi">
+                <input type="checkbox" className="look" />
+              </div>
+              <span>
+                J’accepte les Conditions Générales
+                d'Utilisation et la <br /> Politique de Confidentialité
+              </span>
+            </div>
+
+            <div className="myButton">
+                <button className="bttn">Creer mon espace</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default connexion;

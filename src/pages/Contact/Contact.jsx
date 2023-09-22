@@ -1,16 +1,16 @@
-import React from 'react'
+import React from "react";
 import "../Contact/contact.css";
-import Navbar from '../../Components/Navbar/Navbar';
-import Home from '../../Components/Home';
-import {MdPersonOutline} from "react-icons/md";
+import Navbar from "../../Components/Navbar/Navbar";
+import Home from "../../Components/Home";
+import { MdPersonOutline } from "react-icons/md";
 
-const Contact = () =>{
+const Contact = () => {
   return (
-   <section className='contact'>
-    <Navbar />
-    <Home />
-    <div className="container">
-    <div className="text">
+    <section className="contact">
+      <Navbar />
+      <Home />
+      <div className="container">
+        <div className="text">
           <h1>Nous Contactez</h1>
           <div className="depa">
             <div className="trai"></div>
@@ -18,34 +18,42 @@ const Contact = () =>{
         </div>
 
         <div className="card">
-            <div className="cadre">
-
+          <div className="cadre"></div>
+          <div className="cadre">
+            <div className="unMot">
+              <h1>N'hésitez pas à nous contacter</h1>
             </div>
-            <div className="cadre">
-                <div className='unMot'>
-                    <h1>N'hésitez pas à nous contacter</h1>
-                </div>
-                <form className='form'>
-                    <div className="fle">
-                    <label>
-                    <span>first name</span>
-            <input required="" placeholder="" type="text" class="input" />
-            <MdPersonOutline className='kpa'/>
-        </label>
 
-        <label>
-        <span >first name</span>
-            <input required="" placeholder="" type="text" class="input" />
+            <form className="form">
+              <div className="fle">
+                <label>
+                  <span>first name</span>
+                  <input required="" placeholder="" type="text" class="input" />
+                  <MdPersonOutline className="kpa" />
+                </label>
 
-        </label>
-                    </div>
+                <label>
+                  <span>first name</span>
+                  <input required="" placeholder="" type="text" class="input" />
+                </label>
+              </div>
 
-                </form>
-            </div>
+              <label>
+                  <span>first name</span>
+                  <input required="" placeholder="" type="text" class="input" />
+                </label>
+
+                <label>
+                  <span>first name</span>
+                  <input required="" placeholder="" type="text" class="input" />
+                </label>
+            </form>
+
+          </div>
         </div>
-    </div>
-   </section>
-  )
-}
+      </div>
+    </section>
+  );
+};
 
 export default Contact;

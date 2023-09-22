@@ -5,7 +5,7 @@ import {AiFillCloseCircle} from "react-icons/ai";
 import {TbGridDots} from "react-icons/tb";
 import { Link } from "react-router-dom";
 
-const Navbar = () =>{
+const Navbar = () =>{   
 
     const [active, setActive] = useState("navBar")
     const showNav = () =>{
