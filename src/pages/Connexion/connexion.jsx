@@ -2,6 +2,9 @@ import React from "react";
 import "../Connexion/connexion.css";
 import { Link } from "react-router-dom";
 import { SiYourtraveldottv } from "react-icons/si";
+import Footer from "../../Components/Footer";
+import Load from "../Load/Load";
+
 
 const connexion = () => {
   return (
@@ -17,7 +20,7 @@ const connexion = () => {
         </div>
 
         <div className="autreNavbar">
-          <a href="#">Deja Inscrit ?Connectez-vous</a>
+          <Link to="/Load">Deja Inscrit ?Connectez-vous</Link>
         </div>
       </div>
       <hr />
@@ -62,6 +65,7 @@ const connexion = () => {
           </form>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

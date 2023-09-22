@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer";
 import Home from "../../Components/Home";
 import {GiSandsOfTime} from "react-icons/gi";
 import {FaEye} from "react-icons/fa";
@@ -81,6 +82,7 @@ const propos = () => {
 
 
       </div>
+      <Footer />
     </section>
   );
 };

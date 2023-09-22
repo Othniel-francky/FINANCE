@@ -1,8 +1,10 @@
 import React from "react";
 import "../Contact/contact.css";
 import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer";
 import Home from "../../Components/Home";
 import { MdPersonOutline } from "react-icons/md";
+import { FiMap} from "react-icons/fi";
 
 const Contact = () => {
   return (
@@ -27,29 +29,25 @@ const Contact = () => {
             <form className="form">
               <div className="fle">
                 <label>
-                  <span>first name</span>
+                  <span>Nom*</span>
                   <input required="" placeholder="" type="text" class="input" />
                   <MdPersonOutline className="kpa" />
                 </label>
 
                 <label>
-                  <span>first name</span>
+                  <span>E- mail*</span>
                   <input required="" placeholder="" type="text" class="input" />
                 </label>
               </div>
 
               <label>
-                  <span>first name</span>
+                  <span>Sujet*</span>
                   <input required="" placeholder="" type="text" class="input1" />
                 </label>
 
-                <label>
-                  <span>first name</span>
-                  <input required="" placeholder="" type="text" class="input1" />
-                </label>
 
                 <label>
-                <span>first name</span>
+                <span>Message*</span>
                   <textarea name="" id="" cols="30" rows="10"></textarea>
                 </label>
 
@@ -58,7 +56,50 @@ const Contact = () => {
 
           </div>
         </div>
+
+        <div className="onSepare">
+          <div className="nosTexte">
+            <h2>Plus d'informations</h2>
+          </div>
+
+          <div className="Encore">
+            <div className="grandCase">
+              <div className="moyenCase">
+              <div className="petiCase">
+                <FiMap className="chic"/>
+              </div>
+              <div className="textDur">
+                <h4>Adresse du Bureau</h4>
+              </div>
+              </div>
+            </div>
+
+            <div className="grandCase">
+              <div className="moyenCase">
+              <div className="petiCase">
+                <FiMap className="chic"/>
+              </div>
+              <div className="textDur">
+                <h4>Adresse du Bureau</h4>
+              </div>
+              </div>
+            </div>
+
+            <div className="grandCase">
+              <div className="moyenCase">
+              <div className="petiCase">
+                <FiMap className="chic"/>
+              </div>
+              <div className="textDur">
+                <h4>Adresse du Bureau</h4>
+              </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
       </div>
+      <Footer />
     </section>
   );
 };

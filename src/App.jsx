@@ -4,6 +4,7 @@ import Home from "./Components/Home";
 import Cards from "./Components/Cards";
 import Barre from "./Components/Barre";
 import Security from "./Components/Security";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Cards />
       <Barre />
       <Security />
+      <Footer />
     </div>
   );
 };

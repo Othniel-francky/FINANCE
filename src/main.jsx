@@ -7,6 +7,7 @@ import Connexion from "./pages/Connexion/connexion.jsx";
 import Propos from './pages/Apropos/propos.jsx';
 import Prestation from './pages/Prestations/Prestation.jsx';
 import Contact from './pages/Contact/Contact.jsx'
+import Load from './pages/Load/Load.jsx';
 
 // import { Components } from 'react';
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/Contact",
     element: <Contact />,
+  },
+  {
+    path: "/Load",
+    element: <Load />,
   },
 ])
 

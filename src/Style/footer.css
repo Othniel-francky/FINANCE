@@ -1,0 +1,14 @@
+.footer{
+    margin-top: 50px;
+}
+
+.separeImage img{
+height: 50px;
+width: 100px;
+
+}
+
+.pourSeparer{
+    display: flex;
+    justify-content: space-between;
+}
