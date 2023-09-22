@@ -40,13 +40,20 @@ const Contact = () => {
 
               <label>
                   <span>first name</span>
-                  <input required="" placeholder="" type="text" class="input" />
+                  <input required="" placeholder="" type="text" class="input1" />
                 </label>
 
                 <label>
                   <span>first name</span>
-                  <input required="" placeholder="" type="text" class="input" />
+                  <input required="" placeholder="" type="text" class="input1" />
                 </label>
+
+                <label>
+                <span>first name</span>
+                  <textarea name="" id="" cols="30" rows="10"></textarea>
+                </label>
+
+                <button className="bttn">Envoyer</button>
             </form>
 
           </div>
