@@ -157,3 +157,9 @@ p {
     grid-template-columns: 2fr;
   }
 }
+
+@media screen and (max-width: 950px) {
+  .carreer {
+    display: none;
+  }
+}

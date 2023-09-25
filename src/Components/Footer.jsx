@@ -30,6 +30,7 @@ const Footer = () => {
                     <div className='monTitre'>
                         <h2>A PROPOS</h2>
                     </div>
+                    <br />
                     <ul>
                         <li>Notre mission</li>
                         <li>Sécurité</li>
@@ -43,6 +44,7 @@ const Footer = () => {
                 <div className='monTitre'>
                         <h2>PRODUITS</h2>
                     </div>
+                    <br />
                     <ul>
                         <li>Nos offres</li>
                         <li>Nos solutions</li>
@@ -53,6 +55,7 @@ const Footer = () => {
                 <div className='monTitre'>
                         <h2>AIDE</h2>
                     </div>
+                    <br />
                     <ul>
                         <li>Nous contacter</li>
                         <li>FAQ</li>

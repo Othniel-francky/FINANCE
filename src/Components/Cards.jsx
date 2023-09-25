@@ -11,6 +11,9 @@ const cards = ()=> {
         <div className='container'>
             <div className="teste">
                 <h1>Notre technologie, Vos décisions</h1>
+                <div className="depa">
+                <div className="trai"></div>
+            </div>
             </div>
           <div className="content">
             <div className="carre">
@@ -51,6 +54,9 @@ const cards = ()=> {
           <div className="outils">
             <div className="text">
                 <h1>Des outils pour maîtriser votre budget Financier</h1>
+                <div className="depa">
+                <div className="trai"></div>
+            </div>
             </div>
             <div className="divers">
                 <div className="passe">

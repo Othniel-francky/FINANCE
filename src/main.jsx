@@ -8,7 +8,7 @@ import Propos from './pages/Apropos/propos.jsx';
 import Prestation from './pages/Prestations/Prestation.jsx';
 import Contact from './pages/Contact/Contact.jsx'
 import Load from './pages/Load/Load.jsx';
-
+import Etude from './pages/Etude/Etude.jsx';
 // import { Components } from 'react';
 
 const router = createBrowserRouter([
@@ -44,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/Load",
     element: <Load />,
+  },
+  {
+    path: "/Etude",
+    element: <Etude />,
   },
 ])
 

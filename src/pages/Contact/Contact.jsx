@@ -5,6 +5,8 @@ import Footer from "../../Components/Footer";
 import Home from "../../Components/Home";
 import { MdPersonOutline } from "react-icons/md";
 import { FiMap} from "react-icons/fi";
+import {AiFillMail} from "react-icons/ai";
+import {SlEarphonesAlt} from "react-icons/sl"
 
 const Contact = () => {
   return (
@@ -70,6 +72,7 @@ const Contact = () => {
               </div>
               <div className="textDur">
                 <h4>Adresse du Bureau</h4>
+                <p>Port-Bouet Adjouffou</p>
               </div>
               </div>
             </div>
@@ -77,10 +80,11 @@ const Contact = () => {
             <div className="grandCase">
               <div className="moyenCase">
               <div className="petiCase">
-                <FiMap className="chic"/>
+                <AiFillMail className="chic"/>
               </div>
               <div className="textDur">
-                <h4>Adresse du Bureau</h4>
+                <h4>Adresse E-mail</h4>
+                <p>kouame45@gmail.com</p>
               </div>
               </div>
             </div>
@@ -88,10 +92,11 @@ const Contact = () => {
             <div className="grandCase">
               <div className="moyenCase">
               <div className="petiCase">
-                <FiMap className="chic"/>
+                <SlEarphonesAlt className="chic"/>
               </div>
               <div className="textDur">
-                <h4>Adresse du Bureau</h4>
+                <h4>Numéro de telephone</h4>
+                <p>+225 0789105791</p>
               </div>
               </div>
             </div>

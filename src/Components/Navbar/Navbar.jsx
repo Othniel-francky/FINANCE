@@ -63,7 +63,7 @@ window.addEventListener('scroll',addBg)
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">ETUDE FINANCIERE</a>
+                        <Link to="/Etude" className="navLink">ETUDE FINANCIERE</Link>
                     </li>
                      
                      <div className="headerBtns flex">
