@@ -52,7 +52,8 @@ const Load = () => {
             </div>
 
             <div className="myButton">
-                <button className="bttn">Creer mon espace</button>
+              <Link to ="/Dashboard"><button className="bttn">Creer mon espace</button></Link>
+                
             </div>
           </form>
         </div>

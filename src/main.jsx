@@ -9,6 +9,7 @@ import Prestation from './pages/Prestations/Prestation.jsx';
 import Contact from './pages/Contact/Contact.jsx'
 import Load from './pages/Load/Load.jsx';
 import Etude from './pages/Etude/Etude.jsx';
+import Dashboard from './pages/Dashboard/Dashboard.jsx';
 // import { Components } from 'react';
 
 const router = createBrowserRouter([
@@ -48,6 +49,11 @@ const router = createBrowserRouter([
   {
     path: "/Etude",
     element: <Etude />,
+  },
+
+  {
+    path: "/Dashboard",
+    element: <Dashboard />,
   },
 ])
 
