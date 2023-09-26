@@ -4,21 +4,11 @@ import { Link } from "react-router-dom";
 import { SiYourtraveldottv } from "react-icons/si";
 import Footer from "../../Components/Footer";
 import Load from "../Load/Load";
-import axios from "axios";
+
 
 
 const connexion = () => {
 
-  const [nom, setNom] = useState();
-  const [email, setEmail] = useState();
-  const [motDepasse, setmotDepasse] = useState();
-  const [confirm, setConfirm] = useState();
-  const handleSubmit =(e) => {
-    e.preventDefault()
-    axios.post('',{nom, email, motDepasse, confirm })
-    .then(result => console.log(result))
-    .catch(err => console.log(err))
-  }
   return (
     <div>
       <div className="simpleNavbar">
@@ -43,28 +33,28 @@ const connexion = () => {
           <div className="bois">
               <label className="babel1">
                 <span>Votre Nom:</span>
-                <input type="text" onChange={(e)=>setNom(e.target.value)}/>
+                <input type="text"/>
               </label>
             </div>
             <br />
             <div className="bois">
               <label className="babel1">
                 <span>Votre adresse email:</span>
-                <input type="text" onChange={(e)=>setEmail(e.target.value)}/>
+                <input type="text" />
               </label>
             </div>
             <br />
             <div className="bois">
               <label className="babel">
                 <span>Choisissez votre mot de passe:</span>
-                <input type="text" onChange={(e)=>setmotDepasse(e.target.value)}/>
+                <input type="text"/>
               </label>
             </div>
             <br />
             <div className="bois">
               <label className="babel">
                 <span>Confirmez votre mot de passe:</span>
-                <input type="text" onChange={(e)=>setConfirm(e.target.value)}/>
+                <input type="text" />
               </label>
             </div>
 
