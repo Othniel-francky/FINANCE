@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Connexion from "..src//pages/Connexion/connexion.jsx";
+import Connexion from "..src/pages/Connexion/connexion.jsx";
 import Propos from '../src/pages/Apropos/Propos.jsx';
 import Prestation from '../src/pages/Prestations/Prestation.jsx';
 import Contact from './pages/Contact/Contact.jsx'
