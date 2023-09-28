@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Security.css";
+import "../Style/security.css";
 
 import photo from "../assets/probleme-removebg-preview.png";
 const Security = () => {
