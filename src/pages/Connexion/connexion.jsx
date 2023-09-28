@@ -29,7 +29,7 @@ const connexion = () => {
       <div className="contai">
         <div className="global">
           <p>Inscrivez-vous gratuitement</p>
-          <form className="for" onSubmit={handleSubmit}>
+          <form className="for">
           <div className="bois">
               <label className="babel1">
                 <span>Votre Nom:</span>
