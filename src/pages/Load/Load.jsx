@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Load/load.css"
+import "../Load/Load.css"
 import { Link } from "react-router-dom";
 import { SiYourtraveldottv } from "react-icons/si";
 import Footer from '../../Components/Footer';
