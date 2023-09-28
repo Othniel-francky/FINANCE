@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Connexion from "./pages/Connexion/connexion.jsx";
-import Propos from './pages/Apropos/propos.jsx';
+import Propos from '../src/pages/Apropos/Propos.jsx';
 import Prestation from './pages/Prestations/Prestation.jsx';
 import Contact from './pages/Contact/Contact.jsx'
 import Load from './pages/Load/Load.jsx';
