@@ -14,6 +14,7 @@ const Etude = () => {
                 <div className="trai"></div>
             </div>
             </div>
+            div
     </div>
   )
 }
