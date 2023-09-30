@@ -14,6 +14,9 @@ const Etude = () => {
                 <div className="trai"></div>
             </div>
             </div>
+
+            <div className="container">
+            </div>
     </div>
   )
 }

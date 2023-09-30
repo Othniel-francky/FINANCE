@@ -31,11 +31,11 @@ li{
 }
 
 .btn:hover{
-  background:yellowgreen;
+  background:#e3b350;
 }
 
 .btn:hover a{
-  color: red; 
+  color: white; 
 }
 
 .flex{
