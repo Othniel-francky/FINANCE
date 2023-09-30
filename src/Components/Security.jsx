@@ -2,6 +2,7 @@ import React from "react";
 import "../Style/security.css";
 
 import photo from "../assets/probleme-removebg-preview.png";
+import phot from "../assets/callCenter-removebg-preview.png"
 const Security = () => {
   return (
     <section className="securite">
@@ -34,7 +35,7 @@ const Security = () => {
 
         <div className="part1">
           <div className="prob">
-            <img src={photo} alt="" />
+            <img src={phot} alt="" />
           </div>
           <div className="ecrire">
             <h1>Un service client disponible</h1>
